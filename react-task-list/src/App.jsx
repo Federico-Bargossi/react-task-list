@@ -100,7 +100,7 @@ function App() {
                 <div className="state">{cure.state}</div>
               </div>
               <p className="p">Priorità: {cure.priority}</p>
-              <p className="p">Tempo stimato: {cure.estimatedTime} min</p>
+              <p className="p">Est. time {cure.estimatedTime}</p>
             </li>
           ))}
         </ul>
@@ -118,7 +118,7 @@ function App() {
                 <div className="state">{cure.state}</div>
               </div>
               <p className="p">Priorità: {cure.priority}</p>
-              <p className="p">Tempo stimato: {cure.estimatedTime} min</p>
+              <p className="p">Est. time {cure.estimatedTime}</p>
             </li>
           ))}
         </ul>
